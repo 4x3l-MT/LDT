@@ -1,13 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 .header{
     display:flex;
-    background-color: rgb(194, 143, 113);
+    background-color: #3DDC84;
     justify-content: space-between;
     align-items: center;
     height: 5rem;
 }
 
+.titulo{
+    display:flex;
+    align-items: center;
+}
+
 .button{
-    background-color: rgb(165, 124, 101);
+    background-color: #3498DB;
     align-content: center;
     text-align: center;
     border-radius: 2rem;
@@ -15,6 +26,7 @@
     height: 3rem;
     margin-left: 9rem;
     margin-right: 9rem;
+    cursor: pointer;
 }
 
 .button:hover{
@@ -22,23 +34,16 @@
 }
 
 .LDTandroid{
-    background-color: #3DDC84;
+    background-color: #b6ffd7;
 }
 
 .LDTios{
     background-color: rgb(255, 206, 71);
 }
 
-.LineaTiempo{
+.LineaTiempo, .LineaSuperior, .LineaInferior{
     display: flex;
-}
-
-.LineaSuperior{
-    display:flex;
-}
-
-.LineaInferior{
-    display:flex;
+    justify-content: center;
 }
 
 .triangulo {
@@ -70,6 +75,21 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.circulo2{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+    background-color: rgb(0, 105, 175);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .espacio1{
@@ -173,6 +193,15 @@
   backface-visibility: hidden;
   opacity: 0.95;
   white-space: pre-line;
+}
+
+.caja{
+    border-radius: 3%;
+    background-color: rgb(58, 196, 206);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 @keyframes rotar180 {
