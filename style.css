@@ -20,3 +20,166 @@
 .button:hover{
     transform: scale(1.1)
 }
+
+.LDTandroid{
+    background-color: #3DDC84;
+}
+
+.LDTios{
+    background-color: rgb(255, 206, 71);
+}
+
+.LineaTiempo{
+    display: flex;
+}
+
+.LineaSuperior{
+    display:flex;
+}
+
+.LineaInferior{
+    display:flex;
+}
+
+.triangulo {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangulo-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.circulo {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.8s ease;
+  cursor: pointer;
+  background-color: rgb(0, 105, 175);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.espacio1{
+    width: 1.5rem;
+}
+
+.espacio2{
+    width: 3rem;
+}
+
+.saltoaño{
+    width: 13rem;
+}
+
+.saltoaño2{
+    width: 11rem;
+}
+
+.eclaire{
+    background-image: url(img/eclaire.webp);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.froyo{
+    background-image: url(img/froyo.webp);
+    background-position:left ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.gingerbread{
+    background-image: url(img/gingerbread.webp);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.honeycomb{
+    background-image: url(img/honeycomb.webp);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icecreamsandwich{
+    background-image: url(img/IceCreamSandwich.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.jellybean{
+    background-image: url(img/JellyBean.webp);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.kitkat{
+    background-image: url(img/kitkat.webp);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.lollipop{
+    background-image: url(img/lollipop.webp);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.marshmallow{
+    background-image: url(img/marshmallow.webp);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.circulo:hover{
+ transform: rotateY(180deg);
+}
+
+.circulo::after {
+  content: attr(data-back);
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-color: rgb(0, 105, 175);
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.6rem;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  opacity: 0.95;
+  white-space: pre-line;
+}
+
+@keyframes rotar180 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}

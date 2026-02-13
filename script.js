@@ -1,3 +1,14 @@
-document.getElementById('div-que-activa').addEventListener('click', function() {
-    document.getElementById('elemento1').style.display = 'none';
+const androidBtn = document.getElementById("Android");
+const iosBtn     = document.getElementById("iOS");
+const contenidoAndroid = document.getElementById("LDTandroid");
+const contenidoIos     = document.getElementById("LDTios");
+
+androidBtn.addEventListener("click", () => {
+    contenidoAndroid.style.display = "block";
+    contenidoIos.style.display = "none";
+});
+
+iosBtn.addEventListener("click", () => {
+    contenidoAndroid.style.display = "none";
+    contenidoIos.style.display = "block";
 });
