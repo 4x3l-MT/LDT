@@ -15,6 +15,7 @@ body{
 .titulo{
     display:flex;
     align-items: center;
+    justify-content: center;
 }
 
 .button{
@@ -93,7 +94,7 @@ body{
 }
 
 .espacio1{
-    width: 1.5rem;
+    width: 1rem;
 }
 
 .espacio2{
@@ -105,7 +106,7 @@ body{
 }
 
 .saltoaño2{
-    width: 11rem;
+    width: 0.5rem;
 }
 
 .eclaire{
@@ -202,6 +203,8 @@ body{
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
+    justify-content: center;
+    text-align: center;
 }
 
 @keyframes rotar180 {

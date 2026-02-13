@@ -12,7 +12,8 @@
             <div class="button" id="iOS">iOS</div>
         </div>
         <div id="LDTandroid" class="LDTandroid">
-            <div style="">
+            <br>
+            <div>
                 <?php include 'LineaTiempo/LineaSuperior.php'; ?>
 
                 <?php include 'LineaTiempo/LineaTiempo.php'; ?>
@@ -26,6 +27,7 @@
                     <div class="circulo2 eclaire"></div>
                 </div>
                 <h id="textoEclaire"></h>
+                <br><br>
             </div>
 
             <div id="contFroyo" class="caja">
@@ -34,6 +36,7 @@
                     <div class="circulo2 froyo"></div>
                 </div>
                 <h id="textoFroyo"></h>
+                <br><br>
             </div>
 
             <div id="contGingerbread" class="caja">
@@ -42,6 +45,7 @@
                     <div class="circulo2 gingerbread"></div>
                 </div>
                 <h id="textoGingerbread"></h>
+                <br><br>
             </div>
 
             <div id="contHoneycomb" class="caja">
@@ -50,6 +54,7 @@
                     <div class="circulo2 honeycomb"></div>
                 </div>
                 <h id="textoHoneycomb"></h>
+                <br><br>
             </div>
 
             <div id="contIceCreamSandwich" class="caja">
@@ -58,6 +63,7 @@
                     <div class="circulo2 icecreamsandwich"></div>
                 </div>
                 <h id="textoIceCreamSandwich"></h>
+                <br><br>
             </div>
 
             <div id="contJellyBean" class="caja">
@@ -66,6 +72,7 @@
                     <div class="circulo2 jellybean"></div>
                 </div>
                 <h id="textoJellyBean"></h>
+                <br><br>
             </div>
 
             <div id="contKitkat" class="caja">
@@ -74,6 +81,7 @@
                     <div class="circulo2 kitkat"></div>
                 </div>
                 <h id="textoKitKat"></h>
+                <br><br>
             </div>
 
             <div id="contLollipop" class="caja">
@@ -82,6 +90,7 @@
                     <div class="circulo2 lollipop"></div>
                 </div>
                 <h id="textoLollipop"></h>
+                <br><br>
             </div>
 
             <div id="contMarshmallow" class="caja">
@@ -90,6 +99,7 @@
                     <div class="circulo2 marshmallow"></div>
                 </div>
                 <h id="textoMarshmallow"></h>
+                <br><br>
             </div>
 
             <script src="scripts/android/contenido.js"></script>
