@@ -25,7 +25,6 @@ const contLollipop = document.getElementById("contLollipop");
 const MarshmallowButton = document.getElementById("Marshmallow");
 const contMarshmallow = document.getElementById("contMarshmallow");
 
-
 EclaireButton.addEventListener("click", () => {
     if (contEclaire) {
     contEclaire.scrollIntoView({ behavior: 'smooth' }); 

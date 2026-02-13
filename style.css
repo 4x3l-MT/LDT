@@ -2,11 +2,12 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #ffe9df;
 }
 
 .header{
     display:flex;
-    background-color: #3DDC84;
+    background-color: #000000;
     justify-content: space-between;
     align-items: center;
     height: 5rem;
@@ -19,7 +20,7 @@ body{
 }
 
 .button{
-    background-color: #3498DB;
+    background-color: #a3a3a3;
     align-content: center;
     text-align: center;
     border-radius: 2rem;
@@ -28,6 +29,7 @@ body{
     margin-left: 9rem;
     margin-right: 9rem;
     cursor: pointer;
+    color: #ffffff;
 }
 
 .button:hover{
@@ -35,11 +37,17 @@ body{
 }
 
 .LDTandroid{
-    background-color: #b6ffd7;
+    background-color: #ffe9df;
 }
 
 .LDTios{
     background-color: rgb(255, 206, 71);
+}
+
+.LDT{
+    background-color: azure;
+    border-color: black;
+    border: 0.3rem solid black;
 }
 
 .LineaTiempo, .LineaSuperior, .LineaInferior{
@@ -50,7 +58,7 @@ body{
 .triangulo {
     position: relative;
     width: 10rem;
-    height: 10rem;
+    height: 5rem;
     clip-path: polygon(0 0, 0 100%, 100% 50%);
     display: flex;
     align-items: center;
@@ -59,7 +67,7 @@ body{
 
 .triangulo-text {
     color: white;
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: bold; 
 }
 
@@ -72,7 +80,7 @@ body{
   perspective: 1000px;
   transition: transform 0.8s ease;
   cursor: pointer;
-  background-color: rgb(0, 105, 175);
+  background-color: rgb(123, 138, 134);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,63 +118,63 @@ body{
 }
 
 .eclaire{
-    background-image: url(img/eclaire.webp);
+    background-image: url(Android/img/eclaire.webp);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .froyo{
-    background-image: url(img/froyo.webp);
+    background-image: url(Android/img/froyo.webp);
     background-position:left ;
     background-size: 90%;
     background-repeat: no-repeat;
 }
 
 .gingerbread{
-    background-image: url(img/gingerbread.webp);
+    background-image: url(Android/img/gingerbread.webp);
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
 }
 
 .honeycomb{
-    background-image: url(img/honeycomb.webp);
+    background-image: url(Android/img/honeycomb.webp);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .icecreamsandwich{
-    background-image: url(img/IceCreamSandwich.webp);
+    background-image: url(Android/img/IceCreamSandwich.webp);
     background-position: center;
     background-size: 90%;
     background-repeat: no-repeat;
 }
 
 .jellybean{
-    background-image: url(img/JellyBean.webp);
+    background-image: url(Android/img/JellyBean.webp);
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
 }
 
 .kitkat{
-    background-image: url(img/kitkat.webp);
+    background-image: url(Android/img/kitkat.webp);
     background-position: center;
     background-size: 60%;
     background-repeat: no-repeat;
 }
 
 .lollipop{
-    background-image: url(img/lollipop.webp);
+    background-image: url(Android/img/lollipop.webp);
     background-position: center;
     background-size: 70%;
     background-repeat: no-repeat;
 }
 
 .marshmallow{
-    background-image: url(img/marshmallow.webp);
+    background-image: url(Android/img/marshmallow.webp);
     background-position: center;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -181,7 +189,7 @@ body{
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background-color: rgb(0, 105, 175);
+  background-color: rgb(123, 138, 134);
   color: white;
   font-weight: bold;
   font-size: 1.1rem;
@@ -197,12 +205,14 @@ body{
 }
 
 .caja{
-    border-radius: 3%;
-    background-color: rgb(58, 196, 206);
+    border: solid black;
+    border-radius: 0.5rem;
+    width: 50rem;
+    background-color: rgba(0, 238, 255, 0.295);
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     text-align: center;
 }
