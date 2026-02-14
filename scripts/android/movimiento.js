@@ -25,6 +25,36 @@ const contLollipop = document.getElementById("contLollipop");
 const MarshmallowButton = document.getElementById("Marshmallow");
 const contMarshmallow = document.getElementById("contMarshmallow");
 
+const NougatButton = document.getElementById("Nougat");
+const contNougat = document.getElementById("contNougat");
+
+const OreoButton = document.getElementById("Oreo");
+const contOreo = document.getElementById("contOreo");
+
+const PieButton = document.getElementById("Pie");
+const contPie = document.getElementById("contPie");
+
+const TenButton = document.getElementById("Ten");
+const contTen = document.getElementById("contTen");
+
+const ElevenButton = document.getElementById("Eleven");
+const contEleven = document.getElementById("contEleven");
+
+const TwelveButton = document.getElementById("Twelve");
+const contTwelve = document.getElementById("contTwelve");
+
+const ThirteenButton = document.getElementById("Thirteen");
+const contThirteen = document.getElementById("contThirteen");
+
+const FourteenButton = document.getElementById("Fourteen");
+const contFourteen = document.getElementById("contFourteen");
+
+const FifteenButton = document.getElementById("Fifteen");
+const contFifteen = document.getElementById("contFifteen");
+
+const SixteenButton = document.getElementById("Sixteen");
+const contSixteen = document.getElementById("contSixteen");
+
 EclaireButton.addEventListener("click", () => {
     if (contEclaire) {
     contEclaire.scrollIntoView({ behavior: 'smooth' }); 
@@ -77,4 +107,64 @@ MarshmallowButton.addEventListener("click", () => {
     if (contMarshmallow) {
     contMarshmallow.scrollIntoView({ behavior: 'smooth' }); 
   }
+});
+
+NougatButton.addEventListener("click", () => {
+    if (contNougat) {
+    contNougat.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+OreoButton.addEventListener("click", () => {
+    if (contOreo) {
+    contOreo.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+PieButton.addEventListener("click", () => {
+    if (contPie) {
+    contPie.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+TenButton.addEventListener("click", () => {
+    if (contTen) {
+    contTen.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+ElevenButton.addEventListener("click", () => {
+    if (contEleven) {
+    contEleven.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+TwelveButton.addEventListener("click", () => {
+    if (contTwelve) {
+    contTwelve.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+ThirteenButton.addEventListener("click", () => {
+    if (contThirteen) {
+    contThirteen.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+FourteenButton.addEventListener("click", () => {
+    if (contFourteen) {
+    contFourteen.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+FifteenButton.addEventListener("click", () => {
+    if (contFifteen) {
+    contFifteen.scrollIntoView({ behavior: 'smooth' }); 
+  }
+});
+
+SixteenButton.addEventListener("click", () => {
+    if (contSixteen) {
+        contSixteen.scrollIntoView({ behavior: 'smooth' });
+      }
 });

@@ -109,4 +109,114 @@
                 <br><br>
             </div>
 
+            <div id="contNougat" class="caja">
+                <div class="titulo">
+                    <h1>Nougat</h1>
+                    <div class="circulo2 nougat"></div>
+                </div>
+                <h id="textoNougat"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contOreo" class="caja">
+                <div class="titulo">
+                    <h1>Oreo</h1>
+                    <div class="circulo2 oreo"></div>
+                </div>
+                <h id="textoOreo"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contPie" class="caja">
+                <div class="titulo">
+                    <h1>Pie</h1>
+                    <div class="circulo2 pie"></div>
+                </div>
+                <h id="textoPie"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contTen" class="caja">
+                <div class="titulo">
+                    <h1>10</h1>
+                    <div class="circulo2 ten"></div>
+                </div>
+                <h id="textoTen"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contEleven" class="caja">
+                <div class="titulo">
+                    <h1>11</h1>
+                    <div class="circulo2 eleven"></div>
+                </div>
+                <h id="textoEleven"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contTwelve" class="caja">
+                <div class="titulo">
+                    <h1>12</h1>
+                    <div class="circulo2 twelve"></div>
+                </div>
+                <h id="textoTwelve"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contThirteen" class="caja">
+                <div class="titulo">
+                    <h1>13</h1>
+                    <div class="circulo2 thirteen"></div>
+                </div>
+                <h id="textoThirteen"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contFourteen" class="caja">
+                <div class="titulo">
+                    <h1>14</h1>
+                    <div class="circulo2 fourteen"></div>
+                </div>
+                <h id="textoFourteen"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contFifteen" class="caja">
+                <div class="titulo">
+                    <h1>15</h1>
+                    <div class="circulo2 fifteen"></div>
+                </div>
+                <h id="textoFifteen"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
+            <div id="contSixteen" class="caja">
+                <div class="titulo">
+                    <h1>16</h1>
+                    <div class="circulo2 sixteen"></div>
+                </div>
+                <h id="textoSixteen"></h>
+                <br>
+                <?php include('elementos/volver.html') ?>
+                <br><br>
+            </div>
+
             <script src="scripts/android/contenido.js"></script>

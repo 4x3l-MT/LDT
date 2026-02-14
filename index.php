@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style/style.css">
         <title>Linea De Tiempo</title>
     </head>
     <body>

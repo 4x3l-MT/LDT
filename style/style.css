@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe9df;
+}
+
+.header{
+    display:flex;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.titulo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    background-color: #a3a3a3;
+    align-content: center;
+    text-align: center;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.button:hover{
+    transform: scale(1.1)
+}
+
+.LDTandroid{
+    background-color: #ffe9df;
+}
+
+.LDTios{
+    background-color: #ffe9df;
+    display: none;
+}
+
+.LDT{
+    background-color: azure;
+    border-color: black;
+    border: 0.3rem solid black;
+}
+
+.LineaTiempo, .LineaSuperior, .LineaInferior{
+    display: flex;
+}
+
+.triangulo {
+    position: relative;
+    width: 10rem;
+    height: 5rem;
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangulo-text {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold; 
+}
+
+.circulo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.8s ease;
+  cursor: pointer;
+  background-color: rgb(123, 138, 134);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.circulo2{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+    background-color: rgb(0, 105, 175);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.espacio1{
+    width: 0.3rem;
+}
+
+.espacio2{
+    width: 0.9rem;
+}
+
+.saltoaño{
+    width: 5.9rem;
+}
+
+.saltoaño2{
+    width: 5.2rem;
+}
+
+.eclaire{
+    background-image: url(../Android/img/eclaire.webp);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.froyo{
+    background-image: url(../Android/img/froyo.webp);
+    background-position:left ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.gingerbread{
+    background-image: url(../Android/img/gingerbread.webp);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.honeycomb{
+    background-image: url(../Android/img/honeycomb.webp);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.icecreamsandwich{
+    background-image: url(../Android/img/IceCreamSandwich.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.jellybean{
+    background-image: url(../Android/img/JellyBean.webp);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.kitkat{
+    background-image: url(../Android/img/kitkat.webp);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.lollipop{
+    background-image: url(../Android/img/lollipop.webp);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.marshmallow{
+    background-image: url(../Android/img/marshmallow.webp);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.nougat{
+    background-image: url(../Android/img/nougat.webp);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.oreo{
+    background-image: url(../Android/img/oreo.webp);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.pie{
+    background-image: url(../Android/img/pie.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.ten{
+    background-image: url(../Android/img/android.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.eleven{
+    background-image: url(../Android/img/11.webp);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.twelve{
+    background-image: url(../Android/img/12.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.thirteen{
+    background-image: url(../Android/img/13.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.fourteen{
+    background-image: url(../Android/img/14.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.fifteen{
+    background-image: url(../Android/img/15.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.sixteen{
+    background-image: url(../Android/img/16.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.circulo:hover{
+ transform: rotateY(180deg);
+}
+
+.circulo::after {
+  content: attr(data-back);
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-color: rgb(123, 138, 134);
+  color: white;
+  font-weight: bold;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.6rem;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  opacity: 0.95;
+  white-space: pre-line;
+}
+
+.caja{
+    border: solid black;
+    border-radius: 0.5rem;
+    width: 50rem;
+    background-color: rgba(0, 238, 255, 0.295);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+@keyframes rotar180 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
