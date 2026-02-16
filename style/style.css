@@ -38,11 +38,12 @@ body{
 
 .LDTandroid{
     background-color: #ffe9df;
+    display: none;
 }
 
 .LDTios{
     background-color: #ffe9df;
-    display: none;
+    
 }
 
 .LDT{
@@ -53,6 +54,7 @@ body{
 
 .LineaTiempo, .LineaSuperior, .LineaInferior{
     display: flex;
+    justify-content: center;
 }
 
 .triangulo {
@@ -101,12 +103,31 @@ body{
     background-repeat: no-repeat;
 }
 
+.circulo3{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+    background-color: rgb(123, 138, 134);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .espacio1{
     width: 0.3rem;
 }
 
 .espacio2{
     width: 0.9rem;
+}
+
+.espacio3{
+    width: 4rem;
 }
 
 .saltoaño{
@@ -117,6 +138,7 @@ body{
     width: 5.2rem;
 }
 
+/*Imagenes Android, termina en linea 254*/
 .eclaire{
     background-image: url(../Android/img/eclaire.webp);
     background-position: center;
@@ -249,12 +271,74 @@ body{
     background-size: 90%;
     background-repeat: no-repeat;
 }
+/*Fin imagenes Android*/
+
+/*Imagenes iOS, termina en linea 291*/
+.ios15{
+    background-image: url(../iOS/img/15.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.ios16{
+    background-image: url(../iOS/img/16.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.ios17{
+    background-image: url(../iOS/img/17.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.ios18{
+    background-image: url(../iOS/img/18.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.ios26{
+    background-image: url(../iOS/img/26.webp);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+/*Fin imagenes iOS*/
 
 .circulo:hover{
  transform: rotateY(180deg);
 }
 
+.circulo3:hover{
+ transform: rotateY(180deg);
+}
+
 .circulo::after {
+  content: attr(data-back);
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-color: rgb(123, 138, 134);
+  color: white;
+  font-weight: bold;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.6rem;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  opacity: 0.95;
+  white-space: pre-line;
+}
+
+.circulo3::after {
   content: attr(data-back);
   position: absolute;
   inset: 0;

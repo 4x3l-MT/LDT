@@ -15,9 +15,10 @@
             <?php include('Android/android.php') ?>
         </div>
         <div id="LDTios" class="LDTios">
-                hola que tal
-            </div>
+            <?php include('iOS/ios.php') ?>
+        </div>
         <script src="scripts/script_OS.js"></script>
         <script src="scripts/android/movimiento.js"></script>
+        <script src="scripts/ios/movimiento.js"></script>
     </body>
 </html>
